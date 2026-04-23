@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="My Multi-page App", layout="wide")
 
-st.title("🏠 หน้าหลัก (Homepage)")
+st.title("🏠 หน้าหลัก")
 st.write("### **Boot Camp:** Data Science and Machine Learning")
 st.write("##### 7 Day Intensive Hands-on Workshop")
 st.info("**Day 1:** การจัดการข้อมูลพื้นฐานและโครงสร้างข้อมูลด้วย Python")
