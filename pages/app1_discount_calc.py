@@ -37,6 +37,6 @@ if st.button("คำนวณยอดสุทธิ"):
 
 
 
-if st.button("กลับ 🏠 หน้าหลัก"):
+if st.button("🏠 กลับหน้าหลัก"):
     st.switch_page("app.py")
 
