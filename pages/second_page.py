@@ -11,4 +11,4 @@ st.markdown("""
 """)
 
 if st.button("กลับไปยังหน้าหลัก (จำลอง)"):
-    st.warning("ในระบบ Streamlit ปกติ ให้คลิกที่ 'app' ในแถบด้านข้างครับ")
+    st.switch_page("app.py")
