@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="My Multi-page App", layout="wide")
 
 st.title("🏠 หน้าหลัก (Homepage)")
-st.write("ยินดีต้อนรับเข้าสู่เว็บไซต์ที่สร้างด้วย Streamlit บน Colab ครับ")
+st.write("Boot Camp: Data Science and Machine Learning 7 Day Intensive Hands-on Workshop")
 
 st.info("👈 คุณสามารถคลิกเลือกหน้าที่ 2 ได้ที่แถบเมนูด้านซ้ายมือ")
 
