@@ -2,7 +2,7 @@ import streamlit as st
 
 # 1. ส่วนหัวของโปรแกรม (UI)
 st.title("💰 ระบบคำนวณส่วนลดร้านค้า")
-st.info("คำนวณยอดชำระและส่วนลดอัตโนมัติ")
+st.info("ส่วนลดลูกค้าตามยอดการสั่งซื้อสะสม")
 
 # 2. รับข้อมูลผ่าน Web Interface (แทนที่ input)
 total_bill = st.number_input("กรุณากรอกยอดซื้อรวม (บาท):", min_value=0.0, step=100.0)
