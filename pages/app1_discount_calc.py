@@ -34,3 +34,9 @@ if st.button("คำนวณยอดสุทธิ"):
         st.success(f"คุณได้รับส่วนลดทั้งหมด {discount_amount:,.2f} บาท")
     else:
         st.info("ยอดซื้อไม่ถึงเกณฑ์รับส่วนลด")
+
+
+
+if st.button("กลับ 🏠 หน้าหลัก"):
+    st.switch_page("app.py")
+
