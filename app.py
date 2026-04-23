@@ -10,3 +10,6 @@ st.info("👈 คุณสามารถคลิกเลือกหน้า
 if st.button("คลิกเพื่อดูความลับ"):
     st.balloons()
     st.success("ยินดีด้วย! คุณเจอความลับแล้ว")
+
+if st.button("ไปที่หน้าที่สอง"):
+    st.switch_page("pages/second_page.py")
