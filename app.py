@@ -5,7 +5,7 @@ st.set_page_config(page_title="My Multi-page App", layout="wide")
 st.title("🏠 หน้าหลัก (Homepage)")
 st.write("Boot Camp: Data Science and Machine Learning 7 Day Intensive Hands-on Workshop")
 
-st.info("<b>Day 1:</b> การจัดการข้อมูลพื้นฐานและโครงสร้างข้อมูลด้วย Python")
+st.info("**Day 1:** การจัดการข้อมูลพื้นฐานและโครงสร้างข้อมูลด้วย Python")
 
 if st.button("คลิกเพื่อดูความลับ"):
     st.balloons()
